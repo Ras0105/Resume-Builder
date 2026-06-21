@@ -11,6 +11,10 @@
     let per=sum_marks/total*100;
     return per;
   }
+  function calculate_cgpa_from_sgpa(sgpa){
+    let cgpa=sum(sgpa)/sgpa.length;
+    return cgpa;
+  }
   const STEP_LABELS = ['Contact','Summary','Education','Experience','Projects','Skills','Extras','Review'];
 
   STEP_LABELS.forEach((label, i) => {
