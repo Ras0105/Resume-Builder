@@ -4,7 +4,9 @@
   const stepsNav = document.getElementById('stepsNav');
   const previewMount = document.getElementById('previewMount');
   let currentStep = 0;
-
+  let cursor=0;
+  let pointer=0;
+  
   const STEP_LABELS = ['Contact','Summary','Education','Experience','Projects','Skills','Extras','Review'];
 
   STEP_LABELS.forEach((label, i) => {
