@@ -6,8 +6,10 @@
   let currentStep = 0;
   let cursor=0;
   let pointer=0;
-  function cursor(cur){
-    return null;
+  function calculatepercentage(marks,total){
+    sum_marks=sum(marks);
+    let per=sum_marks/total*100;
+    return per;
   }
   const STEP_LABELS = ['Contact','Summary','Education','Experience','Projects','Skills','Extras','Review'];
 
