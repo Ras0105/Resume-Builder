@@ -7,12 +7,17 @@
   let cursor=0;
   let pointer=0;
   function calculatepercentage(marks,total){
-    sum_marks=sum(marks);
+    let sum_marks=sum(marks);
+    let no_of_subjects=marks.length;
+    total=100*no_of_subjects;
     let per=sum_marks/total*100;
     return per;
   }
   function calculate_cgpa_from_sgpa(sgpa){
-    let cgpa=sum(sgpa)/sgpa.length;
+    let cgpa;
+    let sum_of_all_sgpa=sum(sgpa);
+    let semester=sgpa.length;
+    cgpa=sum_of_all_sgpa/semester;
     return cgpa;
   }
   const STEP_LABELS = ['Contact','Summary','Education','Experience','Projects','Skills','Extras','Review'];
