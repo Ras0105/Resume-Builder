@@ -319,6 +319,12 @@
 
 
 
+
+
+
+
+
+
 //old code
 // (function(){
 //   const form = document.getElementById('resumeForm');
