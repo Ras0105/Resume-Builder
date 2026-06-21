@@ -6,7 +6,9 @@
   let currentStep = 0;
   let cursor=0;
   let pointer=0;
-  
+  function cursor(cur){
+    return null;
+  }
   const STEP_LABELS = ['Contact','Summary','Education','Experience','Projects','Skills','Extras','Review'];
 
   STEP_LABELS.forEach((label, i) => {
